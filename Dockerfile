@@ -9,8 +9,6 @@ COPY apt_install.txt .
 RUN apt-get update && apt-get install -y `cat apt_install.txt`
 
 # Config pip
-RUN python3 -m pip config set global.index-url http://pypi.ai.seacloud.garenanow.com/root/dev
-RUN python3 -m pip config set global.trusted-host pypi.ai.seacloud.garenanow.com
 RUN ln -sf /usr/bin/python3 /usr/bin/python
 
 # Upgrade pip, install py libs
