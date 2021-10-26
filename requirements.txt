@@ -1,0 +1,7 @@
+numpy==1.19.2
+jax[cuda11_cudnn805]
+dm-tree
+optax
+packaging
+tensorflow
+tensorflow_datasets

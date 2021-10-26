@@ -1,0 +1,9 @@
+build-essential
+g++
+git
+libboost-all-dev
+libbz2-dev
+python3-pip
+python3.8
+tar
+vim
